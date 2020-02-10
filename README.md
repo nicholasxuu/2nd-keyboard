@@ -6,7 +6,7 @@
 
 1. Download and install [LuaMacros](https://github.com/me2d13/luamacros) from [download page](http://www.hidmacros.eu/luamacros.zip)
 
-2. Open LuaMacro.
+2. Open LuaMacros.
 
 3. Use `lmc_print_devices()` to find your target device, i.e.
 ```
