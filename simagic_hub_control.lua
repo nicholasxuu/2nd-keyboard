@@ -80,6 +80,7 @@ lmc_set_handler(     usb_device_name_2, function( button, direction )
   -- light control - pull
   elseif ( button == 75  ) then   lmc_send_keys( 'k' ,50 )   key='k'
   
+  -- Note: key button may need 2 handler due to numLock state change.
   -- wiper control - pull
   elseif ( button == 9   ) then   lmc_send_keys( 'r' ,50 )   key='r'
   -- wiper control - down
