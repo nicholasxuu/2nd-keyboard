@@ -28,8 +28,8 @@
 8 Create windows shortcut with script like: 
 ```
 "C:\bin\luamacros\LuaMacros.exe" "C:\bin\2ndkeyboard\simagic_hub_control.lua" -r
-```. 
+```
 Your directories may differ. 
- 
- 
+
+
 9. Put shortcut into your startup folder.
