@@ -25,5 +25,5 @@
 
 7. If it works, you can create a windows startup with next few steps:
 
-7.1. Create windows shortcut with script like: `"C:\bin\luamacros\LuaMacros.exe" "C:\bin\2ndkeyboard\simagic_hub_control.lua" -r`. Your directories may differ. 
-7.2. Put shortcut into your startup folder.
+ 7.1. Create windows shortcut with script like: `"C:\bin\luamacros\LuaMacros.exe" "C:\bin\2ndkeyboard\simagic_hub_control.lua" -r`. Your directories may differ. 
+ 7.2. Put shortcut into your startup folder.
