@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Download and install [LuaMacro](https://github.com/stevedonovan/LuaMacro) from [its release page](https://github.com/stevedonovan/LuaMacro/releases/tag/2.5.0)
+1. Download and install [LuaMacros](https://github.com/me2d13/luamacros) from [download page](http://www.hidmacros.eu/luamacros.zip)
 
 2. Open LuaMacro.
 
