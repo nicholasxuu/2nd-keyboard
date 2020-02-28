@@ -55,51 +55,50 @@ lmc_set_handler(     usb_device_name_2, function( button, direction )
   is_button_code_assigned = true
 
   -- panel button - left
-  if     ( button == 69  ) then   lmc_send_keys( 'l' ,50 )   key='l'
+  if     ( button == 69  ) then   lmc_send_keys( 'l' , 100 )   key='l'
   -- panel button - right
-  elseif ( button == 76  ) then   lmc_send_keys( 'e' ,50 )   key='e'
+  elseif ( button == 76  ) then   lmc_send_keys( 'e' , 100 )   key='e'
 
   -- cruise control - up
-  elseif ( button == 89  ) then   lmc_send_keys( 'y' ,50 )   key='y'
+  elseif ( button == 89  ) then   lmc_send_keys( 'y' , 100 )   key='y'
   -- cruise control - down
-  elseif ( button == 8   ) then   lmc_send_keys( 't' ,50 )   key='t'
+  elseif ( button == 8   ) then   lmc_send_keys( 't' , 100 )   key='t'
   -- cruise control - pull
-  elseif ( button == 85  ) then   lmc_send_keys( 'u' ,50 )   key='u'
+  elseif ( button == 85  ) then   lmc_send_keys( 'u' , 100 )   key='u'
   -- cruise control - push
-  elseif ( button == 73  ) then   lmc_send_keys( 'i' ,50 )   key='i'
+  elseif ( button == 73  ) then   lmc_send_keys( 'i' , 100 )   key='i'
   -- cruise control - button
-  -- elseif ( button == 67  ) then   lmc_send_keys( 'c' ,50 )   key='c' -- default
-  elseif ( button == 67  ) then   lmc_send_keys( '^ ' ,50 )   key='ctrl+space'
+  -- elseif ( button == 67  ) then   lmc_send_keys( 'c' , 100 )   key='c' -- default
+  elseif ( button == 67  ) then   lmc_send_keys( '^ ' , 100 )   key='ctrl+space'
 
   -- light control - up
-  elseif ( button == 221 ) then   lmc_send_keys( ']' ,50 )   key=']'
+  elseif ( button == 221 ) then   lmc_send_keys( ']' , 100 )   key=']'
   -- light control - down
-  elseif ( button == 219 ) then   lmc_send_keys( '[' ,50 )   key='['
+  elseif ( button == 219 ) then   lmc_send_keys( '[' , 100 )   key='['
   -- light control - push
-  elseif ( button == 74  ) then   lmc_send_keys( 'j' ,50 )   key='j'
+  elseif ( button == 74  ) then   lmc_send_keys( 'j' , 100 )   key='j'
   -- light control - pull
-  elseif ( button == 75  ) then   lmc_send_keys( 'k' ,50 )   key='k'
+  elseif ( button == 75  ) then   lmc_send_keys( 'k' , 100 )   key='k'
   
-  -- Note: key button may need 2 handler due to numLock state change.
   -- wiper control - pull
-  elseif ( button == 9   ) then   lmc_send_keys( 'r' ,50 )   key='r'
+  elseif ( button == 9   ) then   lmc_send_keys( 'r' , 100 )   key='r'
   -- wiper control - down
-  elseif ( button == 81  ) then   lmc_send_keys( 'v' ,50 )   key='v'
+  elseif ( button == 81  ) then   lmc_send_keys( 'v' , 100 )   key='v'
   -- wiper control - lv1 click1
-  elseif ( button == 36  ) then   lmc_send_keys( ',' ,50 )   key=','
-  elseif ( button == 103 ) then   lmc_send_keys( ',' ,50 )   key=','
+  elseif ( button == 36  ) then   lmc_send_keys( ',' , 100 )   key=','
+  elseif ( button == 103 ) then   lmc_send_keys( ',' , 100 )   key=','
   -- wiper control - lv1 click2
-  elseif ( button == 38  ) then   lmc_send_keys( '.' ,50 )   key='.'
-  elseif ( button == 104 ) then   lmc_send_keys( '.' ,50 )   key='.'
+  elseif ( button == 38  ) then   lmc_send_keys( '.' , 100 )   key='.'
+  elseif ( button == 104 ) then   lmc_send_keys( '.' , 100 )   key='.'
   -- wiper control - lv1 click3
-  elseif ( button == 33  ) then   lmc_send_keys( '/' ,50 )   key='/'
-  elseif ( button == 105 ) then   lmc_send_keys( '/' ,50 )   key='/'
+  elseif ( button == 33  ) then   lmc_send_keys( '/' , 100 )   key='/'
+  elseif ( button == 105 ) then   lmc_send_keys( '/' , 100 )   key='/'
   -- wiper control - lv1 click4
-  elseif ( button == 107 ) then   lmc_send_keys( 'm' ,50 )   key='m'
+  elseif ( button == 107 ) then   lmc_send_keys( 'm' , 100 )   key='m'
   -- wiper control - lv2
-  elseif ( button == 80  ) then   lmc_send_keys( 'x' ,50 )   key='x'
+  elseif ( button == 80  ) then   lmc_send_keys( 'x' , 100 )   key='x'
   -- wiper control - lv3
-  elseif ( button == 145 ) then   lmc_send_keys( 'z' ,50 )   key='z'
+  elseif ( button == 145 ) then   lmc_send_keys( 'z' , 100 )   key='z'
 
   else
     is_button_code_assigned=false
